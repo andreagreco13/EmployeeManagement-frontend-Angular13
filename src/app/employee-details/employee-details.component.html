@@ -1,0 +1,22 @@
+<!-- <h3>Viw Employee Details</h3>
+<div>
+  <div>
+    <label class="" for="firstName">First Name</label>
+    <p id="firstName">{{ employee.firstName }}</p>
+  </div>
+</div> -->
+
+<div class="col-md-6 offset-md-3">
+  <div class="card text-center">
+    <div class="card-header">
+      Employee Details
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">
+        {{ employee.firstName }}
+        {{ employee.lastName }}</h5>
+      <p class="card-text">{{ employee.emailId }}</p>
+      <a routerLink="../../employees" class="btn btn-primary">Employee List</a>
+    </div>
+  </div>
+</div>
